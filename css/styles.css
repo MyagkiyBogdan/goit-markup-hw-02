@@ -28,6 +28,10 @@ body {
 	list-style: none;
 }
 
+.btn {
+	cursor: pointer;
+}
+
 /* Header and footer settings */
 
 .header-section {
@@ -79,11 +83,6 @@ body {
 	font-style: normal;
 }
 
-.btn {
-	cursor: pointer;
-}
-
-
 /* Main page */
 
 .hero {
@@ -104,7 +103,7 @@ body {
 .hero button {
 		background-color: var(--accent-text-color);
 		color: var(--white-text-color);
-
+		font-family: Roboto;
 		font-weight: 700;
 		font-size: 16px;
 		line-height: 1.87;
@@ -162,6 +161,13 @@ text-align: center;
 .works-filter button {
 	background-color: var(--filter-button-color);
 	height: 38px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 .works-filter button:hover,
