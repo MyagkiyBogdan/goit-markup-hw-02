@@ -103,7 +103,7 @@ body {
 .hero button {
 		background-color: var(--accent-text-color);
 		color: var(--white-text-color);
-		font-family: Roboto;
+		font-family: inherit;
 		font-weight: 700;
 		font-size: 16px;
 		line-height: 1.87;
@@ -161,7 +161,7 @@ text-align: center;
 .works-filter button {
 	background-color: var(--filter-button-color);
 	height: 38px;
-	font-family: Roboto;
+	font-family: inherit;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
