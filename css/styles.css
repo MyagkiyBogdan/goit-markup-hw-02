@@ -16,7 +16,7 @@ body {
 	color: var(--main-text-color);
 	font-size: 14px;
 	letter-spacing: 0.03em;
-	line-height: 1.71em
+	line-height: 1.71;
 }
 
 .link {
@@ -38,7 +38,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 1.19em;
+	line-height: 1.19;
 }
 
 .logo-word,
@@ -52,7 +52,7 @@ body {
 
 .header-list .link {
 	font-weight: 500;
-	line-height: 1.14em;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 
@@ -96,7 +96,7 @@ body {
 .hero .title {
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 1.36em;
+	line-height: 1.36;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
@@ -107,7 +107,7 @@ body {
 
 		font-weight: 700;
 		font-size: 16px;
-		line-height: 1.87px;
+		line-height: 1.87;
 		letter-spacing: 0.06em;
 		text-align: center;
 		width: 200px;
@@ -120,7 +120,7 @@ body {
 
 .benefits .title {
 font-weight: 700;
-line-height: 1.14em;
+line-height: 1.14;
 text-transform: uppercase;
 }
 
@@ -131,7 +131,7 @@ text-transform: uppercase;
 .section-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.17em;
+line-height: 1.17;
 text-align: center;
 }
 
@@ -141,18 +141,16 @@ text-align: center;
 
 .our-team {
 	background-color: var(--second-background-color);
+	font-size: 16px;
+	line-height: 1.19;
 }
 
 .our-team .title {
 	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.19em;
 }
 
 .our-team p {
 	color: var(--second-text-color);
-	font-size: 16px;
-	line-height: 1.19em;
 }
 
 /* Porfolio page */
@@ -175,12 +173,12 @@ text-align: center;
 .works-examples .title {
 font-weight: 700;
 font-size: 18px;
-line-height: 2em;
+line-height: 2;
 letter-spacing: 0.06em;
 }
 
 .works-examples p {
 	color: var(--second-text-color);
 	font-size: 16px;
-	line-height: 1.87em;
+	line-height: 1.87;
 }
