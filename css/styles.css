@@ -5,8 +5,8 @@
 	--white-text-color: #FFFFFF;
 	--footer-text-color: rgba(255, 255, 255, 0.6);
 	--footer-background-color: #2F303A;
-	--main-background-color: #FFFFFF;;
-	--second-background-color: #F5F4FA;;
+	--main-background-color: #FFFFFF;
+	--second-background-color: #F5F4FA;
 	--filter-button-color: #F5F4FA;
 	--letter-spacing-second: 0.06em;
 	--second-font-size: 16px;
@@ -30,10 +30,6 @@ body {
 
 .list {
 	list-style: none;
-}
-
-.btn {
-	cursor: pointer;
 }
 
 /* Header and footer settings */
@@ -106,16 +102,16 @@ body {
 }
 
 .hero__btn {
-		background-color: var(--accent-text-color);
-		color: var(--white-text-color);
-		font-family: inherit;
-		font-weight: var(--font-weight-first);
-		font-size: var(--second-font-size);
-		line-height: 1.87;
-		letter-spacing: var(--letter-spacing-second);
-		text-align: center;
-		width: 200px;
-		height: 50px;
+	background-color: var(--accent-text-color);
+	color: var(--white-text-color);
+	font-family: inherit;
+	font-weight: var(--font-weight-first);
+	font-size: var(--second-font-size);
+	line-height: 1.87;
+	letter-spacing: var(--letter-spacing-second);
+	text-align: center;
+	min-width: 200px;
+	cursor: pointer;
 }
 
 .benefits {
@@ -123,20 +119,21 @@ body {
 }
 
 .benefits__title {
-font-weight: var(--font-weight-first);
-line-height: 1.14;
-text-transform: uppercase;
-}
+	font-weight: var(--font-weight-first);
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+	}
 
 .benefits__text {
 	color: var(--second-text-color);
 }
 
 .section__title {
-font-weight: var(--font-weight-first);
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
+	font-weight: var(--font-weight-first);
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
 }
 
 .about {
@@ -151,6 +148,7 @@ text-align: center;
 
 .team__title {
 	font-weight: var(--font-weight-second);
+	font-size: 14px;
 }
 
 .team__text {
@@ -165,13 +163,13 @@ text-align: center;
 
 .works__btn {
 	background-color: var(--filter-button-color);
-	height: 38px;
 	font-family: inherit;
 	font-weight: var(--font-weight-second);
 	font-size: var(--second-font-size);
 	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
+	cursor: pointer;
 }
 
 .works__btn:hover,
@@ -181,10 +179,10 @@ text-align: center;
 }
 
 .works-examples__title {
-font-weight: var(--font-weight-first);
-font-size: 18px;
-line-height: 2;
-letter-spacing: var(--letter-spacing-second);
+	font-weight: var(--font-weight-first);
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: var(--letter-spacing-second);
 }
 
 .works-examples__text {
